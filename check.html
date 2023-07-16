@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+        input[type="submit"]{
+            margin-top: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgStyle">
+        <form onsubmit="analyzeSentiment(event)">
+            <h2>Sentiment Analysis</h2>
+            <textarea id="content" placeholder="Input your text here!"></textarea>
+            <br/>
+            <input type="submit" />
+
+            <div id="resultStyle"> Tone of speech: <span id="result"></span></div>
+        </form>
+    </div>
+
+    <script src='config.js'></script>
+    <script src="./script.js"></script>
+</body>
+</html>
