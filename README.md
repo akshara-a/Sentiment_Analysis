@@ -3,6 +3,6 @@ This project uses the MeaningCloud Sentiment Analysis API to analyze the sentime
 
 <br/><br/>
 Output <br/>
-![Output](./output/output1.jpg) <br/>
+<img src = "./output/output1.png" /> <br/>
 ![Output](./output/output2.png) <br/>
 ![Output](./output/output3.png) <br/>
